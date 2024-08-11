@@ -5,7 +5,6 @@ import MenuSuperior from '@/components/shared/MenuSuperior'
 
 export default function TituloSlogan() {
     return (
-        <>
         <div className="py-10 relative h-[700px]">
             <Image src="/banners/principal.webp" fill alt="Barbearia" className="object-cover" />
             <div
@@ -41,6 +40,5 @@ export default function TituloSlogan() {
                 </div>
             </div>
         </div>
-        </>
     )
 }

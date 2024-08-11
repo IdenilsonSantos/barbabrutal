@@ -71,6 +71,5 @@
   },
   "prisma": {
     "seed": "npx ts-node prisma/seed.ts"
-  },
-  "postinstall": "prisma generate"
+  }
 }
